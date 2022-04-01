@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles2.css">
+        <link rel="stylesheet" href="styles3.css">
+        
+        <title>Best Cinematography Services In Nigeria | Editing | Drone Piloting | Videography | Live streaming</title>
+        <script src="https://kit.fontawesome.com/6950e8a5d8.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+   
+      <!--  menu -->
+    <div class="topnav" id="myTopnav">
+      <a class="cc" href="index.html">Stormblast Media</a>
+      <a href="index.html">Home</a>
+      <a href="#about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="videogallery.html">Video Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="livestream.html">Livestream</a>
+      <a href="blog.html">Blog</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <!-- end of menu -->
+
+    
+
+    <!-- video starts -->
+    <video width="400" controls>
+      <source src="Videos/Say No To $APA.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+    </video>
+    <div class="aw">
+    <p>
+    Video courtesy of 
+    <a href="https://www.bigbuckbunny.org/" target="_blank">Stormblast Media</a>.
+    </p>
+  </div>
+    <!-- video ends -->
+
+    <!-- 3rd section -->
+    <p id="about.html"></p>
+    <div class="aa">
+      <h1>We sepecialise on Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus temporibus expedita voluptatem necessitatibu</h1>
+    </div>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        
+        <img src="images/Screenshot_20220217-215849_2.png" style="width:100%" height="350px">
+        <div class="text">Caption Text</div>
+      </div>
+      
+      <div class="mySlides fade">
+        
+        <img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg" style="width:100%" height="350px">
+        <div class="text">Caption Two</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg" style="width:100%" height="350px">
+        <div class="text">Caption Three</div>
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+      <div class="aaa6">
+        <h3>We sepecialise on Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus temporibus expedita voluptatem necessitatibu</h3>
+      </div>
+  
+      <!-- testimonials -->
+
+<div class="rt">
+<h2>Testimonials</h2>
+<p>Some of our clients testimonials</p>
+<div class="containerr">
+  <img src="images/Screenshot_20220217-215849_2.png" alt="Avatar" style="width:90px">
+  <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+  <p>Stormblast media saved us from a video disaster.</p>
+</div>
+
+<div class="containerr">
+  <img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Avatar" style="width:90px">
+  <p><span>Rebecca Flex.</span> CEO at Company.</p>
+  <p>No one is better than Stormblast Media.</p>
+</div>
+
+<div class="containerr">
+  <img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Avatar" style="width:90px">
+  <p><span>Rebecca Flex.</span> CEO at Company.</p>
+  <p>No one is better than Stormblast Media.</p>
+</div>
+</div>
+
+<!-- glowing text -->
+<div class="you">
+  <p>You can check out our youtube channel for some coool content</p>
+  <h3><a href="#">click here</a></h3>
+  </div>
+<!-- glowing text ends -->
+
+<!-- contact page -->
+<div class="wq">
+<div class="rowq">
+  <div class="columnq" >
+    <div class="lk">
+    <i class="fa fa-phone-square"></i>
+    </div>
+    <div class="q2">
+      <h3>Phone</h3>
+      <em>09090009900090</em><br>
+      <em>788788887888778</em>
+      </div>
+  </div>
+  <div class="columnq">
+    <div class="lk">
+    <i class="fa fa-address-book"></i>
+    </div>
+    <div class="q2">
+      <h3>Adress</h3>
+      <em>09090009900090</em><br>
+      <em>788788887888778</em>
+      </div>
+  </div>
+</div>
+</div>
+<!-- contact page ends here -->
+
+<footer style="background-color:black">
+  <p>Built by DFN Technology & Multimedia &copy 2022. All Right Reserved</p>
+</footer>
+    </body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- javascript for menu -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+      <!-- ends here -->
+
+      <!-- script for slide show -->
+      <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 5 seconds
+        }
+        </script>
+        <!-- script ends here -->
+
+        <!-- scrol to top -->
+        
+<script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+        
+
+        <p id="contact"></p>
+    </html>
+    
